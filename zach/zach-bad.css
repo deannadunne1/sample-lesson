@@ -1,0 +1,49 @@
+#header {
+    position: absolute;
+    background-color:salmon;
+    
+    top: 40px;
+    left: 60px;
+    width: 50%;
+}
+
+#profilePic {
+    position: absolute;
+    background-color:khaki ;
+    
+    top: 100px;
+    left: 30px;
+    width: 40%;
+}
+
+#profileText {
+    position: absolute;
+    background-color:lightblue;
+    
+    top: 200px;
+    left: 400px;
+    width: 60%;
+}
+
+#favorites {
+    position: absolute;
+    background-color:MediumPurple;
+    
+    top: 400px;
+    left: 30px;
+    width: 50%;
+}
+
+#footer {
+    position: absolute;
+    background-color:OliveDrab;
+    
+    top: 600px;
+    left: 30px;
+    width: 80%;
+}
+
+
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}

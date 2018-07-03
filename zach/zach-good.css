@@ -1,0 +1,41 @@
+#header {
+    background-color:salmon;
+    grid-column: span 3;
+    text-align: center;
+}
+
+#profilePic {
+    background-color:khaki ;
+    text-align: center;
+}
+
+#profileText {
+    background-color:lightblue;
+}
+
+#favorites {
+    background-color:MediumPurple;
+}
+
+#footer {
+    background-color:OliveDrab;
+    grid-column: span 3;
+    text-align: center;
+}
+
+
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.cell {
+    box-shadow: 3px 3px 1px grey;
+    padding: 12px;
+}
+
+/* Style your grid here */
+#grid {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
